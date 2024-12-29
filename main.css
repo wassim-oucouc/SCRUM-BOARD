@@ -40,6 +40,16 @@ body{
     opacity: 1;
 
 }
+
+.place h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.place{
+    width: 40px;
+}
 .title-board{
     display: flex;
     justify-content: center;
@@ -85,11 +95,20 @@ body{
 
 .place{
     height: 90px;
-    width: 250px;
+    width: 220px;
+    border-radius: 10%;
+    background-color: beige;
 }
 
+
+
 .button-replace{
-    background-color: green;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Itim", serif;
+    text-decoration: dotted ;
+    width: 120px;
+
 
 }
 
