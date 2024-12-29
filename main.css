@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/assets/fetchpik.com-rCu3QxhYdL.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+}
+
+.title{
+    display: flex;
+   justify-content: space-around;
+   gap:1100px;
+   padding-top: 15px;
+}
+
+
+.title h1{
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.title-board h1{
+    font-family: "Itim", serif;
+    font-size: 19px;
+}
+
+#boards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.board{
+    height: auto;
+    width: 240px;
+    background-color: rgba(243, 243, 243, 0.695);
+    border-radius: 15px;
+    opacity: 1;
+
+}
+.title-board{
+    display: flex;
+    justify-content: center;
+    border-style: 300px solid black;
+}
+.tache{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap:1px; */
+    align-items: center;
+    height: auto;
+    width: 217px;
+    background-color: white;
+    /* border-radius: 13px; */
+    gap:0;
+    cursor: pointer;
+
+}
+
+#
+
+#taches{
+    cursor: pointer;
+    height: auto;
+  
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+/* #modal{
+    display: none;
+} */
+
+.taches{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.place{
+    height: 90px;
+    width: 250px;
+}
+
+.button-replace{
+    background-color: green;
+
+}
+
+.tache h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Itim", serif;
+  font-weight: 200;
+  font-style: normal;
+  opacity: 1;
+
+  border-radius: 15px;
+}
+.buttons{
+    display: flex;
+    gap:15px;
+}
+
+.tache{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 13px;
+    justify-content: center;
+    margin-left: 5px;
+
+}
+
+
+.button-delete{
+    border-radius: 14px;
+    background-color: red;
+    font-family: "Jaro", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+
+}
+.button-edit{
+    height: 30px;
+    width: 80px;
+    border-radius: 14px;
+    background-color: rgb(0, 162, 255);
+    font-family: "Jaro", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+
+.add{
+    padding-top: 5px;
+    background-color: rgb(0, 255, 68);
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 50px;
+    width: 160px;
+    border-radius: 15px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.modal-cud{
+    display: flex;
+    justify-content: center;
+}
+
+
+.modal-cud{
+    display: flex;
+    justify-content: center;
+}
+
